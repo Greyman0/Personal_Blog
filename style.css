@@ -133,6 +133,19 @@
     height: 400px;
 }
 
+
+/* chiller monitoring start */
+
+.chiller-result, .image-result{
+    display: flex;
+}
+
+.image-result{
+    gap: 0 10px;
+}
+
+/* chiller monitoring end */
+
 a{
     text-decoration: none;
     color: #333;

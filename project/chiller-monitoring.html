@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>DashBox - My Persona CV</title>
+</head>
+<body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-semibold ps-5 fs-3" href="#">My Personal CV</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5 pe-5 fw-semibold fs-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    
+    <!-- dashbox start -->
+    <div class="dashbox-container pt-5">
+        <div class="container text-center">
+            <div class="row align-items-start pb-5">
+              <h2>Project 2 - Chiller Monitoring</h2>
+              <div class="col text-start ">
+                <!-- materi -->
+                <div class="chiller-desc px-4">
+                  <div class="text-desc">
+                    <p class="pe-5">Chiller Monitoring 
+                      merupakan projek untuk 
+                      memonitor suhu cairan 
+                      chiller pada PT Toshin 
+                      Prima Fine-Blanking, 
+                      sebagai projek magang. 
+                      Monitoring ini untuk 
+                      tindakan preventif jika ada 
+                      kenaikan suhu pada salah 
+                      satu chiller. Chiller 
+                      Monitoring terdiri dari 
+                      alat monitoring suhu, 
+                      alarm, dan UI monitoring 
+                      Suhu</p>
+                  </div>
+                  <img src="/assets/chiller-desc.jpeg" alt="Chiller monitoring system" width="450px">
+                </div>
+                <div class="chiller-result mt-3 px-4">
+                  <div class="text-result text-start">
+                    <p class="fw-semibold">Berikut merupakan desain 
+                      casing dari Alarm dan 
+                      Monitoring suhu. Dan juga 
+                      alat monitoring suhu. 
+                      Terdiri dari :
+                    </p>
+  
+                    <ul>
+                      <li>ESP32 untuk mengirimkan nilai 
+                          suhu pada rangkaian alarm dan 
+                          aplikasi monitor untuk 
+                          ditampilkan
+                      </li>
+                      <li> Relay untuk menghidupkan 
+                          rangkaian bila tersambung 
+                          dengan internet
+                      </li>
+                    </ul>
+  
+                    <p>
+                      Berikut merupakan tampilan 
+                      monitoring dari suhu 
+                      chiller. Menggunakan 
+                      teknologi node red yang 
+                      terhubungan dengan 
+                      internet, data dari sensor 
+                      dikirim melalui internet 
+                      via Firebase lalu 
+                      ditampilkan, nilai suhu 
+                      juga berpengaruh pada warna 
+                      gauge
+                    </p>
+  
+                  </div>
+                  <div class="image-result">
+                    <img src="/assets/chiller-monitor.jpeg" alt="Chiller Monitoring Result" height="200px">
+                    <img src="/assets/Chiller-case.jpg" alt="Chiller Monitoring Casing Design" width="300px">
+                  </div>
+  
+                </div>
+                <img src="/assets/display-monitoring.png" alt="display-monitoring" width="500px" class="ps-4">
+              </div>
+
+            </div>
+          </div>
+    </div>
+    <!-- dashbox end -->
+    
+    <footer class="text-center text-light pt-3">
+      <h4> &copy; Achmad Maliki 2021</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
