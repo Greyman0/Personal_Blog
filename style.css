@@ -103,6 +103,28 @@
     border-radius: 10px;
 }
 
+.dashbox-container{
+    background-color: #223454;
+    
+}
+.dashbox-container .row{
+    border-radius: 10px;
+    /* height: 86vh; */
+    background-color: #fff;   
+    padding-left: 30px; 
+    padding-right: 50px; 
+    padding-top: 50px; 
+}
+
+.dash-desc{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
 footer{
     background-color: #223454;
     height: 60px;
