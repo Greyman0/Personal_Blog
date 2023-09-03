@@ -116,8 +116,21 @@
     padding-top: 50px; 
 }
 
-.dash-desc{
+.dash-desc, .dash-sch{
     display: flex;
+}
+
+.dash-sch{
+    flex-wrap: wrap;
+}
+
+.text-sch{
+    flex: 1 1 content;
+    /* flex-wrap: wrap; */
+}
+
+.dash-sch img{
+    height: 400px;
 }
 
 a{
